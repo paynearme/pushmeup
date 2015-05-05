@@ -26,8 +26,8 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
-  s.add_dependency 'httparty'
-  s.add_dependency 'json'
+  s.add_dependency 'httparty', '0.8.3'
+  s.add_dependency 'json', '1.8.1'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
